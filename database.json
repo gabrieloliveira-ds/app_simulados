@@ -1,0 +1,199 @@
+[
+    {
+        "question": "Which of the following are AWS security best practices for using AWS Identity and \nAccess Management (IAM) to manage an AWS account root user? ",
+        "options": {
+            "A": "Nothing",
+            "B": "Remove all IAM policies from the root user.",
+            "C": "Delete the root user access keys.",
+            "D": "Use the root user for daily tasks.",
+            "E": "Assign a read-only access policy to the root user."
+        },
+        "answer": "E"
+    },
+    {
+        "question": "Service control policies (SCPs) manage permissions for which of the following?",
+        "options": {
+            "A": "Availability Zones",
+            "B": "AWS Regions",
+            "C": "AWS Organizations",
+            "D": "Edge locations"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "A database administrator is trying to determine who deleted a critical Amazon Redshift cluster.\nWhich AWS service helps with monitoring and retaining this type of account activity?",
+        "options": {
+            "A": "AWS CloudTrail",
+            "B": "AWS Organizations",
+            "C": "AWS Identity and Access Management (IAM)",
+            "D": "AWS Trusted Advisor",
+            "E": "AWS Cost Explorer"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Which pillar of the AWS Well-Architected Framework includes the AWS shared responsibility model?",
+        "options": {
+            "A": "Operational excellence",
+            "B": "Performance efficiency",
+            "C": "Reliability",
+            "D": "Security",
+            "E": "Cost optimization"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "A company runs its business-critical web application on Amazon Elastic Container Service (Amazon ECS) and Amazon\nDynamoDB. The workload spikes up to 10 times the normal workload multiple times during the day.\nWhich AWS Cloud feature enables the company to meet these changes in demand?",
+        "options": {
+            "A": "Agility",
+            "B": "Global reach",
+            "C": "Scalability",
+            "D": "Security",
+            "E": "Durability" 
+        },
+        "answer": "C"
+    },
+    {
+        "question": "A company's traffic logs show that IP addresses owned by AWS are being used in an attempt to flood ports on system\nresources.\nTo whom should the cloud practitioner report this issue?",
+        "options": {
+            "A": "AWS Professional Services",
+            "B": "AWS Abuse team",
+            "C": "AWS Partner Network (APN)",
+            "D": "AWS technical account manager (TAM)",
+            "E": "AWS Bug team"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "An Amazon EC2 instance previously used for development is inaccessible and no longer appears in the AWS\nManagement Console.\nWhich AWS service should be used to determine what action made this EC2 instance inaccessible?",
+        "options": {
+            "A": "Amazon CloudWatch Logs",
+            "B": "AWS Security Hub",
+            "C": "Amazon Inspector",
+            "D": "AWS CloudTrail",
+            "E": "AWS Resource Tracker"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Which AWS service is a highly available and scalable DNS web service?",
+        "options": {
+            "A": "Amazon VPC",
+            "B": "Amazon CloudFront",
+            "C": "Amazon Route 53",
+            "D": "Amazon Connect",
+            "E": "Amazon Aurora"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which AWS service provides a fully managed, highly scalable, and serverless data warehouse for analytics?",
+        "options": {
+            "A": "Amazon S3",
+            "B": "Amazon RDS",
+            "C": "Amazon Redshift",
+            "D": "Amazon DynamoDB",
+            "E": "Amazon Glacier"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which AWS service provides a fully managed message queuing service for decoupling and scaling microservices, distributed systems, and serverless applications?",
+        "options": {
+            "A": "Amazon SQS",
+            "B": "Amazon SNS",
+            "C": "AWS Step Functions",
+            "D": "AWS Lambda",
+            "E": "Amazon Kinesis"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Which AWS service is a managed file storage service that allows you to store and retrieve data from anywhere on the web?",
+        "options": {
+            "A": "Amazon S3",
+            "B": "Amazon EBS",
+            "C": "Amazon Glacier",
+            "D": "Amazon FSx",
+            "E": "Amazon EFS"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Which AWS service is a fully managed NoSQL database service that provides fast and flexible storage for applications requiring consistent, single-digit millisecond latency?",
+        "options": {
+            "A": "Amazon RDS",
+            "B": "Amazon DynamoDB",
+            "C": "Amazon Redshift",
+            "D": "Amazon Neptune",
+            "E": "Amazon DocumentDB"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "What AWS service allows you to create a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you define?",
+        "options": {
+            "A": "Amazon S3",
+            "B": "Amazon RDS",
+            "C": "Amazon VPC",
+            "D": "Amazon DynamoDB",
+            "E": "Amazon ElastiCache"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "What AWS service allows you to create a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you define?",
+        "options": {
+            "A": "Amazon S3",
+            "B": "Amazon RDS",
+            "C": "Amazon VPC",
+            "D": "Amazon DynamoDB",
+            "E": "Amazon ElastiCache"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "To establish a private connection between a VPC and your on-premises network, which AWS service can be used?",
+        "options": {
+            "A": "Amazon S3",
+            "B": "Amazon RDS",
+            "C": "Amazon VPN",
+            "D": "Amazon DynamoDB",
+            "E": "Amazon Redshift"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "What feature of Amazon VPC allows you to securely connect to Amazon EC2 instances over the internet?",
+        "options": {
+            "A": "Elastic Load Balancing",
+            "B": "Amazon S3",
+            "C": "Network ACLs",
+            "D": "Security Groups",
+            "E": "AWS PrivateLink"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "What is a subnet in Amazon VPC?",
+        "options": {
+            "A": "A managed relational database service.",
+            "B": "A virtual private server in AWS.",
+            "C": "A range of IP addresses in your VPC.",
+            "D": "A type of Elastic Load Balancer.",
+            "E": "A DNS web service."
+        },
+        "answer": "C"
+    },
+    {
+        "question": "In Amazon VPC, what AWS service can be used to manage and automate the IP address ranges used in a VPC?",
+        "options": {
+            "A": "Amazon CloudFront",
+            "B": "AWS Lambda",
+            "C": "Amazon Route 53",
+            "D": "Amazon VPC Peering",
+            "E": "AWS Elastic Beanstalk"
+        },
+        "answer": "C and B"
+    }
+]
