@@ -10,6 +10,7 @@ class Sessao:
         self.question_queue = Queue()
         self.load_questions()
 
+        self.contador =  Contador(root)
         self.pergunta = Pergunta(root, "")
         self.opcoes = Opcoes(root)
         self.resposta = Resposta(root)
@@ -33,7 +34,7 @@ class Sessao:
     def next_question(self):
         if not self.question_queue.empty():
             self.current_question = self.question_queue.get()
-            print(self.current_question)
+            self.contador.update(self.question_queue.qsize())
             self.pergunta.update(self.current_question["question"])
             self.opcoes.update(self.current_question["options"])
             self.resposta.update(self.current_question["answer"])
@@ -53,9 +54,7 @@ class Sessao:
 
 class Pergunta:
     def __init__(self, root, question):
-        frame = tk.Frame(root, bd=2, relief=tk.SUNKEN)
-        frame.pack(fill=tk.BOTH, expand=True, padx=20, pady=20)
-        self.label = tk.Label(frame, text=question,font=font.Font(family="Montserrat", size=13, weight="bold"))
+        self.label = tk.Label(root, text=question,font=font.Font(family="Montserrat", size=13, weight="bold"))
         self.label.pack(padx=20, pady=10)
 
     def update(self, question):
@@ -80,7 +79,13 @@ class Opcoes:
             button.config(text=f"{option_key}) {options[option_key]}")
 
 
+class Contador:
+    def __init__(self, root):
+        self.label = tk.Label(root,text="a",font=font.Font(family="Montserrat", size=13,weight='bold'))
+        self.label.pack(anchor='nw')
 
+    def update(self,questions_number):
+        self.label.config(text=f"Remain:{questions_number}")
 
 class Submit:
     def __init__(self, root, on_submit):
@@ -131,7 +136,7 @@ class Resposta:
 
 
 root = tk.Tk()
-root.title("Pergunta de Múltipla Escolha")
+root.title("Simulado AWS")
 
 # Cria a sessão do jogo
 sessao = Sessao(root)

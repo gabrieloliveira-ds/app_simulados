@@ -43,7 +43,7 @@
         "answer": "D"
     },
     {
-        "question": "A company runs its business-critical web application on Amazon Elastic Container Service (Amazon ECS) and Amazon\nDynamoDB. The workload spikes up to 10 times the normal workload multiple times during the day.\nWhich AWS Cloud feature enables the company to meet these changes in demand?",
+        "question": "A company runs its business-critical web application on Amazon Elastic Container Service \n(Amazon ECS) and Amazon\nDynamoDB. The workload spikes up to 10 times the normal workload multiple times during the day.\nWhich AWS Cloud feature enables the company to meet these changes in demand?",
         "options": {
             "A": "Agility",
             "B": "Global reach",
@@ -54,7 +54,7 @@
         "answer": "C"
     },
     {
-        "question": "A company's traffic logs show that IP addresses owned by AWS are being used in an attempt to flood ports on system\nresources.\nTo whom should the cloud practitioner report this issue?",
+        "question": "A company's traffic logs show that IP addresses owned by AWS are being used in an attempt to flood \nports on system\nresources.\nTo whom should the cloud practitioner report this issue?",
         "options": {
             "A": "AWS Professional Services",
             "B": "AWS Abuse team",
@@ -98,7 +98,7 @@
         "answer": "C"
     },
     {
-        "question": "Which AWS service provides a fully managed message queuing service for decoupling and scaling microservices, distributed systems, and serverless applications?",
+        "question": "Which AWS service provides a fully managed message queuing service for decoupling and scaling \nmicroservices, distributed systems, and serverless applications?",
         "options": {
             "A": "Amazon SQS",
             "B": "Amazon SNS",
@@ -109,7 +109,7 @@
         "answer": "A"
     },
     {
-        "question": "Which AWS service is a managed file storage service that allows you to store and retrieve data from anywhere on the web?",
+        "question": "Which AWS service is a managed file storage service that allows you to store and retrieve data \nfrom anywhere on the web?",
         "options": {
             "A": "Amazon S3",
             "B": "Amazon EBS",
@@ -120,7 +120,7 @@
         "answer": "A"
     },
     {
-        "question": "Which AWS service is a fully managed NoSQL database service that provides fast and flexible storage for applications requiring consistent, single-digit millisecond latency?",
+        "question": "Which AWS service is a fully managed NoSQL database service that provides fast and flexible storage\n for applications requiring consistent, single-digit millisecond latency?",
         "options": {
             "A": "Amazon RDS",
             "B": "Amazon DynamoDB",
@@ -131,7 +131,7 @@
         "answer": "B"
     },
     {
-        "question": "What AWS service allows you to create a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you define?",
+        "question": "What AWS service allows you to create a logically isolated section of the AWS Cloud where you can \nlaunch AWS resources in a virtual network that you define?",
         "options": {
             "A": "Amazon S3",
             "B": "Amazon RDS",
@@ -142,7 +142,7 @@
         "answer": "C"
     },
     {
-        "question": "What AWS service allows you to create a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you define?",
+        "question": "What AWS service allows you to create a logically isolated section of the AWS Cloud where you can\n launch AWS resources in a virtual network that you define?",
         "options": {
             "A": "Amazon S3",
             "B": "Amazon RDS",
